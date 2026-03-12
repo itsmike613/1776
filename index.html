@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="The 1776" property="og:title">
+    <meta content="Think you know U.S. History? Take the ultimate test, The 1776" property="og:description">
+    <meta content="https://itsmike613.github.io/1776/" property="og:url">
+    <meta content="https://github.com/itsmike613/1776/blob/main/Source/Images/logo.png?raw=true" property="og:image">
+    <meta content="#0A3161" data-react-helmet="true" name="theme-color">
+
+    <!-- Tab -->
+    <link rel="icon" type="image/x-icon" href="Source/Images/logo.png">
+    <title>The 1776</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+    <link rel="stylesheet" href="Source/Styles/index.css">
+</head>
+
+<body>
+    <div class="app" id="app">
+        <header class="topbar">
+            <div class="brand">
+                <img class="logo" src="Source/Images/logo.png" alt="The 1776 logo">
+                <div class="brand-text">
+                    <div class="title">The 1776</div>
+                    <div class="subtitle">U.S. History Test</div>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="icon-btn" id="settingsBtn" aria-label="Settings" title="Settings">
+                    <i class="ph ph-gear"></i>
+                </button>
+            </div>
+        </header>
+
+        <section class="drawer hidden" id="drawer" aria-label="Settings">
+            <div class="drawer-row">
+                <div class="drawer-title">Settings</div>
+                <div class="spacer"></div>
+                <button class="icon-btn" id="closeDrawerBtn" aria-label="Close settings" title="Close">
+                    <i class="ph ph-x"></i>
+                </button>
+            </div>
+
+            <div class="drawer-grid">
+                <label class="toggle">
+                    <span>Theme</span>
+                    <button class="pill" id="themeBtn" type="button" aria-label="Toggle theme">
+                        <i class="ph ph-moon-stars"></i><span id="themeLabel">Dark</span>
+                    </button>
+                </label>
+
+                <label class="toggle">
+                    <span>Partial credit</span>
+                    <input type="checkbox" id="partialToggle">
+                </label>
+
+                <label class="toggle">
+                    <span>Option images</span>
+                    <input type="checkbox" id="imagesToggle">
+                </label>
+            </div>
+
+            <div class="drawer-hint">
+                Tip: Settings are saved on this device.
+            </div>
+        </section>
+
+        <main class="view" id="homeView">
+            <section class="panel">
+                <div class="panel-title">Quick info</div>
+                <div class="stats" id="stats">
+                </div>
+            </section>
+
+            <section class="panel">
+                <button class="primary" id="startBtn">
+                    Start
+                    <i class="ph ph-arrow-right"></i>
+                </button>
+            </section>
+        </main>
+
+        <main class="view hidden" id="testView">
+            <section class="panel tight">
+                <div class="row">
+                    <div class="kicker" id="qCategory">Category</div>
+                    <div class="spacer"></div>
+                    <div class="counter" id="qCounter">0 / 0</div>
+                </div>
+                <div class="question" id="qText">Question text</div>
+                <div class="micro" id="qMeta">—</div>
+            </section>
+
+            <section class="panel tight" id="optionsArea" aria-label="Options">
+            </section>
+
+            <section class="panel tight">
+                <div class="btn-row">
+                    <button class="ghost" id="backBtn">Back</button>
+                    <button class="primary" id="nextBtn" disabled>Next</button>
+                    <div class="spacer"></div>
+                    <button class="ghost" id="retryBtn">Retry</button>
+                </div>
+            </section>
+        </main>
+
+        <main class="view hidden" id="doneView">
+            <section class="panel">
+                <div class="row">
+                    <div>
+                        <div class="panel-title">Results</div>
+                        <div class="micro">Review your answers</div>
+                    </div>
+                    <div class="spacer"></div>
+                    <div class="score" id="totalScore">0000</div>
+                </div>
+                <div class="break"></div>
+                <div class="cats" id="categoryScores"></div>
+            </section>
+
+            <section class="panel tight" id="reviewArea">
+            </section>
+
+            <section class="panel tight">
+                <div class="btn-row">
+                    <button class="ghost" id="doneBack"><i class="ph ph-arrow-left"></i> Back</button>
+                    <button class="primary" id="doneNext">Next <i class="ph ph-arrow-right"></i></button>
+                    <div class="spacer"></div>
+                    <button class="ghost" id="doneRetry"><i class="ph ph-arrow-counter-clockwise"></i> Retry</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <span class="micro">© All Rights Reserved, itsmike613, 2026</span>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="Source/Data/index.js"></script>
+    <script src="Source/Scripts/index.js"></script>
+</body>
+
+</html>
