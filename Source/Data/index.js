@@ -1,5 +1,5 @@
 const QUESTIONS = [
-        {
+    {
         "q": "Who was the first President of the United States?",
         "c": "Founding Fathers",
         "e": "George Washington became the first U.S. president in 1789.",
@@ -52,6 +52,127 @@ const QUESTIONS = [
             { "t": "George Washington", "i": "https://api.nga.gov/iiif/4f95c866-94c7-4b84-b29f-6873321ef55f/full/!800,800/0/default.jpg", "w": 0.2 },
             { "t": "Patrick Henry", "i": "https://encyclopediavirginia.org/wp-content/uploads/2020/11/117hpr_bbf00100ef41460-scaled.jpg", "w": 0 },
             { "t": "Samuel Adams", "i": "https://upload.wikimedia.org/wikipedia/commons/0/00/Samuel_Adams_by_John_Singleton_Copley.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "In what year was the Declaration of Independence adopted?",
+        "c": "Founding Documents",
+        "e": "The Second Continental Congress adopted the Declaration of Independence on July 4, 1776.",
+        "o": [
+            { "t": "1775", "i": "https://placehold.co/1?text=1775", "w": 0.2 },
+            { "t": "1776", "i": "https://placehold.co/1?text=1776", "w": 1 },
+            { "t": "1781", "i": "https://placehold.co/1?text=1781", "w": 0.1 },
+            { "t": "1789", "i": "https://placehold.co/1?text=1789", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which document declared the American colonies independent from Great Britain?",
+        "c": "Founding Documents",
+        "e": "The Declaration of Independence announced that the colonies were free and independent states.",
+        "o": [
+            { "t": "Articles of Confederation", "i": "https://www.archives.gov/files/milestone-documents/images/doc-003-big.jpg", "w": 0.1 },
+            { "t": "Declaration of Independence", "i": "https://www.archives.gov/files/founding-docs/declaration-of-independence-front-630.jpg", "w": 1 },
+            { "t": "U.S. Constitution", "i": "https://www.archives.gov/files/founding-docs/constitution-page1.jpg", "w": 0.2 },
+            { "t": "Bill of Rights", "i": "https://www.archives.gov/files/founding-docs/bill-of-rights.jpg", "w": 0.1 }
+        ]
+    },
+    {
+        "q": "Which document served as the first constitution of the United States?",
+        "c": "Founding Documents",
+        "e": "The Articles of Confederation were the nation’s first governing framework before the Constitution took effect.",
+        "o": [
+            { "t": "Declaration of Independence", "i": "https://www.archives.gov/files/founding-docs/declaration-of-independence-front-630.jpg", "w": 0.1 },
+            { "t": "Articles of Confederation", "i": "https://www.archives.gov/files/milestone-documents/images/doc-003-big.jpg", "w": 1 },
+            { "t": "U.S. Constitution", "i": "https://www.archives.gov/files/founding-docs/constitution-page1.jpg", "w": 0.2 },
+            { "t": "Federalist Papers", "i": "https://archive.org/services/img/federalistpapers1961hami/full/pct:200/0/default.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "What is the supreme law of the land in the United States?",
+        "c": "Founding Documents",
+        "e": "The U.S. Constitution is the highest law of the land and establishes the structure of the federal government.",
+        "o": [
+            { "t": "Declaration of Independence", "i": "https://www.archives.gov/files/founding-docs/declaration-of-independence-front-630.jpg", "w": 0.2 },
+            { "t": "Articles of Confederation", "i": "https://www.archives.gov/files/milestone-documents/images/doc-003-big.jpg", "w": 0.1 },
+            { "t": "U.S. Constitution", "i": "https://www.archives.gov/files/founding-docs/constitution-page1.jpg", "w": 1 },
+            { "t": "Federalist Papers", "i": "https://archive.org/services/img/federalistpapers1961hami/full/pct:200/0/default.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which document was written to persuade people to ratify the U.S. Constitution?",
+        "c": "Founding Documents",
+        "e": "The Federalist Papers were a series of essays written in support of ratifying the Constitution.",
+        "o": [
+            { "t": "Bill of Rights", "i": "https://www.archives.gov/files/founding-docs/bill-of-rights.jpg", "w": 0.1 },
+            { "t": "Federalist Papers", "i": "https://archive.org/services/img/federalistpapers1961hami/full/pct:200/0/default.jpg", "w": 1 },
+            { "t": "Articles of Confederation", "i": "https://www.archives.gov/files/milestone-documents/images/doc-003-big.jpg", "w": 0 },
+            { "t": "Declaration of Independence", "i": "https://www.archives.gov/files/founding-docs/declaration-of-independence-front-630.jpg", "w": 0.1 }
+        ]
+    },
+    {
+        "q": "How many amendments are in the Bill of Rights?",
+        "c": "Founding Documents",
+        "e": "The Bill of Rights consists of the first 10 amendments to the U.S. Constitution.",
+        "o": [
+            { "t": "8", "i": "https://placehold.co/1?text=8", "w": 0 },
+            { "t": "10", "i": "https://placehold.co/1?text=10", "w": 1 },
+            { "t": "12", "i": "https://placehold.co/1?text=12", "w": 0.2 },
+            { "t": "27", "i": "https://placehold.co/1?text=27", "w": 0.2 }
+        ]
+    },
+    {
+        "q": "In what year was the Bill of Rights ratified?",
+        "c": "Founding Documents",
+        "e": "The Bill of Rights was ratified in 1791, when 10 proposed amendments became part of the Constitution.",
+        "o": [
+            { "t": "1787", "i": "https://placehold.co/1?text=1787", "w": 0.2 },
+            { "t": "1789", "i": "https://placehold.co/1?text=1789", "w": 0.3 },
+            { "t": "1791", "i": "https://placehold.co/1?text=1791", "w": 1 },
+            { "t": "1801", "i": "https://placehold.co/1?text=1801", "w": 0 }
+        ]
+    },
+    {
+        "q": "What does the First Amendment protect?",
+        "c": "Founding Documents",
+        "e": "The First Amendment protects religion, speech, press, assembly, and the right to petition the government.",
+        "o": [
+            { "t": "Freedom of speech, religion, press, assembly, and petition", "i": "https://miro.medium.com/1*NEdeb0slm1ywJB-3HG4xRw.jpeg", "w": 1 },
+            { "t": "Freedom of speech only", "i": "https://t3.ftcdn.net/jpg/02/32/83/12/360_F_232831262_hLNzf2nVpHSaCRETMhDuLiVUkBW1Kx4s.jpg", "w": 0.6 },
+            { "t": "The right to bear arms", "i": "https://fedsoc-cms-public.s3.amazonaws.com/Featured%20Pictures/gun%20flag%20and%20constitution.jpg-848x477", "w": 0 },
+            { "t": "Protection from unreasonable searches", "i": "https://i.pinimg.com/474x/9c/93/32/9c93321c8431d3b35301473ed973e46a.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which document begins with the words \"We the People\"?",
+        "c": "Founding Documents",
+        "e": "The Preamble to the U.S. Constitution begins with the famous words \"We the People.\"",
+        "o": [
+            { "t": "Declaration of Independence", "i": "https://www.archives.gov/files/founding-docs/declaration-of-independence-front-630.jpg", "w": 0.1 },
+            { "t": "Articles of Confederation", "i": "https://www.archives.gov/files/milestone-documents/images/doc-003-big.jpg", "w": 0.1 },
+            { "t": "U.S. Constitution", "i": "https://www.archives.gov/files/founding-docs/constitution-page1.jpg", "w": 1 },
+            { "t": "Bill of Rights", "i": "https://www.archives.gov/files/founding-docs/bill-of-rights.jpg", "w": 0.1 }
+        ]
+    },
+    {
+        "q": "What was the main purpose of the Federalist Papers?",
+        "c": "Founding Documents",
+        "e": "The Federalist Papers argued for ratifying the Constitution and explained how the new government would work.",
+        "o": [
+            { "t": "To declare independence from Britain", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/declaration-of-independence-113492099", "w": 0 },
+            { "t": "To support ratification of the Constitution", "i": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/Ch_3_The_Constitution_Thumbnail-2.jpg", "w": 1 },
+            { "t": "To explain the Bill of Rights after 1791", "i": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/founding-fathers-550x271.png", "w": 0.2 },
+            { "t": "To argue for a stronger national government", "i": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/Ch-2-Declaration-of-Independence-Hero-Image.jpg", "w": 0.5 }
+        ]
+    },
+    {
+        "q": "Which state name is misspelled on the original signed U.S. Constitution?",
+        "c": "Founding Documents",
+        "e": "On the engrossed 1787 Constitution, Alexander Hamilton wrote \"Pensylvania\" with one \"n\" instead of the modern spelling \"Pennsylvania.\"",
+        "o": [
+            { "t": "Virginia", "i": "https://cdn.britannica.com/42/4942-004-851447EE.jpg", "w": 0 },
+            { "t": "Pennsylvania", "i": "https://cdn.britannica.com/31/3431-004-167AAB6A.jpg", "w": 1 },
+            { "t": "Massachusetts", "i": "https://cdn.britannica.com/47/2347-004-FAB09B4B.jpg", "w": 0 },
+            { "t": "Connecticut", "i": "https://cdn.britannica.com/71/7771-004-52169350.jpg", "w": 0 }
         ]
     },
     {

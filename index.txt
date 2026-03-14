@@ -8,7 +8,7 @@
 F | Thirteen Colonies
 F | Revolutionary War
 C | Founding Fathers
-I | Founding Documents
+C | Founding Documents
 I | Constitution and Government
 C | Political Parties
 I | Westward Expansion
