@@ -1,4 +1,59 @@
 const QUESTIONS = [
+        {
+        "q": "Who was the first President of the United States?",
+        "c": "Founding Fathers",
+        "e": "George Washington became the first U.S. president in 1789.",
+        "o": [
+            { "t": "John Adams", "i": "https://api.nga.gov/iiif/6689f0bd-101a-4310-86cd-022ef4b9da1e/full/!800,800/0/default.jpg", "w": 0 },
+            { "t": "George Washington", "i": "https://api.nga.gov/iiif/4f95c866-94c7-4b84-b29f-6873321ef55f/full/!800,800/0/default.jpg", "w": 1 },
+            { "t": "Thomas Jefferson", "i": "https://api.nga.gov/iiif/3a14fb6b-82a0-4e1b-beb3-7e6ac89ef686/full/!800,800/0/default.jpg", "w": 0 },
+            { "t": "James Madison", "i": "https://api.nga.gov/iiif/ab7f71b8-00f6-408f-847a-1ae2986be106/full/!800,800/0/default.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which Founding Father is considered the main author of the Declaration of Independence?",
+        "c": "Founding Fathers",
+        "e": "Thomas Jefferson wrote the main draft of the Declaration of Independence.",
+        "o": [
+            { "t": "Benjamin Franklin", "i": "https://api.nga.gov/iiif/f1103fbe-c406-4410-8361-ea54509b5b8b/full/!800,800/0/default.jpg", "w": 0 },
+            { "t": "Thomas Jefferson", "i": "https://api.nga.gov/iiif/3a14fb6b-82a0-4e1b-beb3-7e6ac89ef686/full/!800,800/0/default.jpg", "w": 1 },
+            { "t": "Alexander Hamilton", "i": "https://api.nga.gov/iiif/71ca4cb0-3149-4152-abca-6485ee178cb2/full/!800,800/0/default.jpg", "w": 0 },
+            { "t": "John Adams", "i": "https://api.nga.gov/iiif/6689f0bd-101a-4310-86cd-022ef4b9da1e/full/!800,800/0/default.jpg", "w": 0.5 }
+        ]
+    },
+    {
+        "q": "Which Founding Father is known as the 'Father of the Constitution'?",
+        "c": "Founding Fathers",
+        "e": "James Madison earned this title for his major role in planning and writing the Constitution.",
+        "o": [
+            { "t": "James Madison", "i": "https://api.nga.gov/iiif/ab7f71b8-00f6-408f-847a-1ae2986be106/full/!800,800/0/default.jpg", "w": 1 },
+            { "t": "George Washington", "i": "https://api.nga.gov/iiif/4f95c866-94c7-4b84-b29f-6873321ef55f/full/!800,800/0/default.jpg", "w": 0.3 },
+            { "t": "Thomas Jefferson", "i": "https://api.nga.gov/iiif/3a14fb6b-82a0-4e1b-beb3-7e6ac89ef686/full/!800,800/0/default.jpg", "w": 0 },
+            { "t": "Benjamin Franklin", "i": "https://api.nga.gov/iiif/f1103fbe-c406-4410-8361-ea54509b5b8b/full/!800,800/0/default.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Who became the first Vice President of the United States?",
+        "c": "Founding Fathers",
+        "e": "John Adams served as the first vice president under George Washington.",
+        "o": [
+            { "t": "John Adams", "i": "https://api.nga.gov/iiif/6689f0bd-101a-4310-86cd-022ef4b9da1e/full/!800,800/0/default.jpg", "w": 1 },
+            { "t": "Thomas Jefferson", "i": "https://api.nga.gov/iiif/3a14fb6b-82a0-4e1b-beb3-7e6ac89ef686/full/!800,800/0/default.jpg", "w": 0.2 },
+            { "t": "James Madison", "i": "https://api.nga.gov/iiif/ab7f71b8-00f6-408f-847a-1ae2986be106/full/!800,800/0/default.jpg", "w": 0 },
+            { "t": "Alexander Hamilton", "i": "https://api.nga.gov/iiif/71ca4cb0-3149-4152-abca-6485ee178cb2/full/!800,800/0/default.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which Founding Father helped secure French support for the American cause during the Revolution?",
+        "c": "Founding Fathers",
+        "e": "Benjamin Franklin played a key role in winning French support and helping negotiate peace with Britain.",
+        "o": [
+            { "t": "Benjamin Franklin", "i": "https://api.nga.gov/iiif/f1103fbe-c406-4410-8361-ea54509b5b8b/full/!800,800/0/default.jpg", "w": 1 },
+            { "t": "George Washington", "i": "https://api.nga.gov/iiif/4f95c866-94c7-4b84-b29f-6873321ef55f/full/!800,800/0/default.jpg", "w": 0.2 },
+            { "t": "Patrick Henry", "i": "https://encyclopediavirginia.org/wp-content/uploads/2020/11/117hpr_bbf00100ef41460-scaled.jpg", "w": 0 },
+            { "t": "Samuel Adams", "i": "https://upload.wikimedia.org/wikipedia/commons/0/00/Samuel_Adams_by_John_Singleton_Copley.jpg", "w": 0 }
+        ]
+    },
     {
         "q": "Which U.S. political party is known as the Grand Old Party?",
         "c": "Political Parties",

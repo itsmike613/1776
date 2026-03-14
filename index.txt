@@ -1,15 +1,13 @@
-////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
     NOTES
-////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
 
 
-    Categories I would like to cover (I: Incomplete C: Complete)
---------------------------------------------------------------------
-I | Native American History
-I | Exploration and Colonization
-I | Thirteen Colonies
-I | Revolutionary War
-I | Founding Era
+    Categories I would like to cover (I: Incomplete C: Complete F: Future)
+------------------------------------------------------------------------------
+F | Thirteen Colonies
+F | Revolutionary War
+C | Founding Fathers
 I | Founding Documents
 I | Constitution and Government
 C | Political Parties
@@ -24,5 +22,6 @@ I | Great Depression
 I | World War II
 I | Cold War
 I | Civil Rights Movement
-I | Modern America
 I | Currency and Symbols
+
+* The categories above may be deleted/edited as more updates come!
