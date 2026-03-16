@@ -231,6 +231,105 @@ const QUESTIONS = [
         ]
     },
     {
+        "q": "Which event marked the beginning of the Civil War?",
+        "c": "Civil War",
+        "e": "The Civil War began when Confederate forces fired on Fort Sumter in South Carolina on April 12, 1861.",
+        "o": [
+            { "t": "Battle of Gettysburg", "i": "https://upload.wikimedia.org/wikipedia/commons/6/69/Battle_of_Gettysburg%2C_by_Currier_and_Ives.png", "w": 0 },
+            { "t": "Bombardment of Fort Sumter", "i": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Bombardment_of_Fort_Sumter.jpg", "w": 1 },
+            { "t": "Battle of Antietam", "i": "https://cdn.britannica.com/53/184753-050-444F493E/Battle-of-Antietam-Kurz-Allison-1888.jpg", "w": 0 },
+            { "t": "Surrender at Appomattox Court House", "i": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/robert-e-lee-surrenders-to-ulysses-s-grant-at-appomattox-courthouse-1865-currier-and-ives.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Who was president of the United States during most of the Civil War?",
+        "c": "Civil War",
+        "e": "Abraham Lincoln led the United States during the Civil War and worked to preserve the Union.",
+        "o": [
+            { "t": "Andrew Johnson", "i": "https://cdn.britannica.com/65/215965-050-B1456D5B/portrait-of-president-andrew-jackson-by-washington-bogart-cooper-1866.jpg", "w": 0 },
+            { "t": "Ulysses S. Grant", "i": "https://archives.whitehousehistory.org/fotoweb/cache/v2/X/c/Main%20Index/Main%20Index/Portraits/57.tif.jif8v7P-MSE_6c1hQA0A.HqZQqiAUCK.jpg", "w": 0 },
+            { "t": "Abraham Lincoln", "i": "https://api.nga.gov/iiif/9573ae89-ce7b-4500-b999-990c83b830fe/full/950,/0/default.jpg", "w": 1 },
+            { "t": "James Buchanan", "i": "https://cdn.britannica.com/65/92665-050-381B1EE3/James-Buchanan.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "What was the name of the Northern side in the Civil War?",
+        "c": "Civil War",
+        "e": "The Northern states that remained loyal to the United States were called the Union.",
+        "o": [
+            { "t": "Confederacy", "i": "https://www.ifri.org/sites/default/files/migrated_files/images/thumbnails/image/confederate_rebel_flag.svg_7.png", "w": 0 },
+            { "t": "Union", "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png", "w": 1 },
+            { "t": "Continental Army", "i": "https://www.battlefields.org/sites/default/files/styles/social_media/public/thumbnails/image/Continental%20Soldiers_1.jpg.webp", "w": 0 },
+            { "t": "Federalists", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-3309247?_a=BAVAZGB00", "w": 0 }
+        ]
+    },
+    {
+        "q": "What was the name of the Southern side in the Civil War?",
+        "c": "Civil War",
+        "e": "The Southern states that seceded from the United States formed the Confederacy, also called the Confederate States of America.",
+        "o": [
+            { "t": "Union", "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png", "w": 0 },
+            { "t": "Confederacy", "i": "https://www.ifri.org/sites/default/files/migrated_files/images/thumbnails/image/confederate_rebel_flag.svg_7.png", "w": 1 },
+            { "t": "Federalists", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-3309247?_a=BAVAZGB00", "w": 0 },
+            { "t": "Continental Army", "i": "https://www.battlefields.org/sites/default/files/styles/social_media/public/thumbnails/image/Continental%20Soldiers_1.jpg.webp", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which document declared enslaved people in rebelling states to be free?",
+        "c": "Civil War",
+        "e": "The Emancipation Proclamation was issued by Abraham Lincoln on January 1, 1863.",
+        "o": [
+            { "t": "Bill of Rights", "i": "https://www.archives.gov/files/founding-docs/bill-of-rights.jpg", "w": 0 },
+            { "t": "Emancipation Proclamation", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/emancipation-proclomation-gettyimages-2881081?_a=BAVAZGB00", "w": 1 },
+            { "t": "Declaration of Independence", "i": "https://www.archives.gov/files/founding-docs/declaration-of-independence-front-630.jpg", "w": 0 },
+            { "t": "Missouri Compromise", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/missouri-compromise-556653959?_a=BAVAZGB00", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which battle is often called the turning point of the Civil War?",
+        "c": "Civil War",
+        "e": "The Battle of Gettysburg in July 1863 is often called the turning point because it stopped Lee’s invasion of the North.",
+        "o": [
+            { "t": "Battle of Gettysburg", "i": "https://upload.wikimedia.org/wikipedia/commons/6/69/Battle_of_Gettysburg%2C_by_Currier_and_Ives.png", "w": 1 },
+            { "t": "Battle of Vicksburg", "i": "https://cdn.britannica.com/08/195108-138-C710801A/Overview-Vicksburg-Campaign-American-Civil-War.jpg", "w": 0.5 },
+            { "t": "Battle of Bunker Hill", "i": "https://upload.wikimedia.org/wikipedia/commons/f/f9/The_Death_of_General_Warren_at_the_Battle_of_Bunker%27s_Hill%2C_June_17%2C_1775.jpg", "w": 0 },
+            { "t": "Battle of Yorktown", "i": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Surrender_of_Lord_Cornwallis.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which Union general accepted Robert E. Lee’s surrender in 1865?",
+        "c": "Civil War",
+        "e": "General Ulysses S. Grant accepted Lee’s surrender at Appomattox Court House on April 9, 1865.",
+        "o": [
+            { "t": "William Tecumseh Sherman", "i": "https://upload.wikimedia.org/wikipedia/commons/4/49/General_William_T._Sherman_%284190887790%29_%28cropped%29.jpg", "w": 0 },
+            { "t": "George B. McClellan", "i": "https://upload.wikimedia.org/wikipedia/commons/8/86/George_B_McClellan_-_retouched%2C_cropped.jpg", "w": 0 },
+            { "t": "Ulysses S. Grant", "i": "https://archives.whitehousehistory.org/fotoweb/cache/v2/X/c/Main%20Index/Main%20Index/Portraits/57.tif.jif8v7P-MSE_6c1hQA0A.HqZQqiAUCK.jpg", "w": 1 },
+            { "t": "Stonewall Jackson", "i": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Jackson-Stonewall-LOC.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Where did Robert E. Lee surrender to Ulysses S. Grant?",
+        "c": "Civil War",
+        "e": "Lee surrendered at Appomattox Court House, Virginia, in April 1865.",
+        "o": [
+            { "t": "Richmond, Virginia", "i": "https://upload.wikimedia.org/wikipedia/commons/7/7c/A_downtown_view_of_Richmond%2C_VA.jpg", "w": 0 },
+            { "t": "Gettysburg, Pennsylvania", "i": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQRosmK7aNSdTSwaG1CYcN3HrNj43yofqhwg2K1612Ix2yWY6H8gX4bqdEsdHlVf2Us-VvztyTCZr8Zn1BihqvONP0&s=19", "w": 0 },
+            { "t": "Appomattox Court House, Virginia", "i": "https://www.nps.gov/apco/learn/historyculture/images/IMG_1585.jpg", "w": 1 },
+            { "t": "Charleston, South Carolina", "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/East_Battery_Street_Charleston_Aug2010.jpg/1280px-East_Battery_Street_Charleston_Aug2010.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "About how long did the Civil War last?",
+        "c": "Civil War",
+        "e": "The Civil War lasted from 1861 to 1865, or about four years.",
+        "o": [
+            { "t": "About 1 year", "i": "https://placehold.co/1?text=1", "w": 0 },
+            { "t": "About 2 years", "i": "https://placehold.co/1?text=2", "w": 0 },
+            { "t": "About 4 years", "i": "https://placehold.co/1?text=4", "w": 1 },
+            { "t": "About 10 years", "i": "https://placehold.co/1?text=10", "w": 0 }
+        ]
+    },
+    {
         "q": "Which U.S. political party is known as the Grand Old Party?",
         "c": "Political Parties",
         "e": "The term started in the 1870s after the Civil War. People called the Republicans the 'Grand Old Party' to honor their role in keeping the country together and ending slavery.",

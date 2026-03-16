@@ -12,7 +12,8 @@ C | Founding Documents
 F | Constitution and Government
 C | Political Parties
 C | Westward Expansion
-I | Civil War
+C | Civil War
+I | Slavery
 I | Reconstruction
 I | Industrialization
 I | Immigration and Ellis Island
