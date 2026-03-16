@@ -9,9 +9,9 @@ F | Thirteen Colonies
 F | Revolutionary War
 C | Founding Fathers
 C | Founding Documents
-I | Constitution and Government
+F | Constitution and Government
 C | Political Parties
-I | Westward Expansion
+C | Westward Expansion
 I | Civil War
 I | Reconstruction
 I | Industrialization

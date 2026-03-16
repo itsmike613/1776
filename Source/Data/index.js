@@ -176,6 +176,61 @@ const QUESTIONS = [
         ]
     },
     {
+        "q": "Which 1803 land deal doubled the size of the United States?",
+        "c": "Westward Expansion",
+        "e": "The Louisiana Purchase was the 1803 agreement in which the United States bought a vast territory from France, doubling the nation’s size.",
+        "o": [
+            { "t": "Missouri Compromise", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/missouri-compromise-556653959?_a=BAVAZGB00", "w": 0 },
+            { "t": "Louisiana Purchase", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/louisiana-purchase-gettyimages-3070818?_a=BAVAZGB00", "w": 1 },
+            { "t": "Homestead Act", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/homestead-act-gettyimages-515213200?_a=BAVAZGB00", "w": 0 },
+            { "t": "Treaty of Guadalupe Hidalgo", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-113491874?_a=BAVAZGB00", "w": 0 }
+        ]
+    },
+    {
+        "q": "Who led the famous expedition that explored the Louisiana Territory from 1804 to 1806?",
+        "c": "Westward Expansion",
+        "e": "Meriwether Lewis and William Clark led the expedition ordered by President Thomas Jefferson to explore and map the new territory.",
+        "o": [
+            { "t": "Daniel Boone and Davy Crockett", "i": "https://upload.wikimedia.org/wikipedia/commons/5/50/Chester_Harding_-_Daniel_Boone_-_NPG.2015.102_-_National_Portrait_Gallery_%28cropped%29.jpg", "w": 0 },
+            { "t": "Lewis and Clark", "i": "https://upload.wikimedia.org/wikipedia/commons/b/be/Meriwether_Lewis-Charles_Willson_Peale.jpg", "w": 1 },
+            { "t": "John C. Frémont and Kit Carson", "i": "https://ids.si.edu/ids/deliveryService?id=NPG-NPG_72_17Fremont_d1", "w": 0 },
+            { "t": "Ulysses S. Grant and William T. Sherman", "i": "https://archives.whitehousehistory.org/fotoweb/cache/v2/X/c/Main%20Index/Main%20Index/Portraits/57.tif.jif8v7P-MSE_6c1hQA0A.HqZQqiAUCK.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "What idea claimed that the United States was destined to spread across North America?",
+        "c": "Westward Expansion",
+        "e": "Manifest Destiny was the belief that the United States should expand westward across the continent.",
+        "o": [
+            { "t": "Popular Sovereignty", "i": "https://upload.wikimedia.org/wikipedia/commons/6/67/Senator_Stephen_A._Douglas_%28edited%29.png", "w": 0 },
+            { "t": "Manifest Destiny", "i": "https://upload.wikimedia.org/wikipedia/commons/f/fd/American_Progress_%28John_Gast_painting%29.jpg", "w": 1 },
+            { "t": "Isolationism", "i": "https://api.nga.gov/iiif/4f95c866-94c7-4b84-b29f-6873321ef55f/full/!800,800/0/default.jpg", "w": 0 },
+            { "t": "Reconstruction", "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Misses_Cooke%27s_school_for_freedmen.jpg/1280px-Misses_Cooke%27s_school_for_freedmen.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which 1862 law gave many settlers 160 acres of public land if they improved it?",
+        "c": "Westward Expansion",
+        "e": "The Homestead Act encouraged western settlement by offering 160 acres to eligible settlers who lived on and improved the land.",
+        "o": [
+            { "t": "Kansas-Nebraska Act", "i": "https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638892190/EducationHub/photos/kansas-nebraska-act.jpg", "w": 0 },
+            { "t": "Indian Removal Act", "i": "https://images.nationalgeographic.org/image/upload/v1638887315/EducationHub/photos/native-american-removal-from-the-southeast.jpg", "w": 0 },
+            { "t": "Homestead Act", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/homestead-act-gettyimages-515213200?_a=BAVAZGB00", "w": 1 },
+            { "t": "Dawes Act", "i": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dawes_Act_-_First_Page.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "What major transportation project was completed at Promontory Summit, Utah, in 1869?",
+        "c": "Westward Expansion",
+        "e": "The first transcontinental railroad was completed in 1869 when the Central Pacific and Union Pacific railroads were linked in Utah.",
+        "o": [
+            { "t": "Erie Canal", "i": "https://cdn.britannica.com/58/125958-050-8380FC47/Map-Erie-Canal.jpg", "w": 0 },
+            { "t": "National Road", "i": "https://cdn.britannica.com/14/199814-050-C335E61E/Map-section-Cumberland-Road-1916.jpg", "w": 0 },
+            { "t": "Transcontinental Railroad", "i": "https://cdn.britannica.com/92/258092-050-5983EBB1/Photograph-of-First-Transcontinental-Railroad-circa-1869.jpg", "w": 1 },
+            { "t": "Panama Canal", "i": "https://cdn.britannica.com/62/244562-050-4BA10632/Locator-map-Canal-Zone.jpg", "w": 0 }
+        ]
+    },
+    {
         "q": "Which U.S. political party is known as the Grand Old Party?",
         "c": "Political Parties",
         "e": "The term started in the 1870s after the Civil War. People called the Republicans the 'Grand Old Party' to honor their role in keeping the country together and ending slavery.",
