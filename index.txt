@@ -13,7 +13,7 @@ F | Constitution and Government
 C | Political Parties
 C | Westward Expansion
 C | Civil War
-I | Slavery
+C | Slavery
 I | Reconstruction
 I | Industrialization
 I | Immigration and Ellis Island

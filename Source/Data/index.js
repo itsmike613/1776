@@ -231,6 +231,83 @@ const QUESTIONS = [
         ]
     },
     {
+        "q": "What was the Middle Passage?",
+        "c": "Slavery",
+        "e": "The Middle Passage was the forced voyage that carried enslaved Africans across the Atlantic Ocean to the Americas.",
+        "o": [
+            { "t": "A route used by settlers moving west", "i": "https://cdn.britannica.com/60/3260-050-6BE12AFF/state-The-Oregon-Trail-boundaries-1850.jpg", "w": 0 },
+            { "t": "A trade route carrying enslaved Africans across the Atlantic", "i": "https://cdn.britannica.com/85/4185-050-B39F97CE/Plans-ship-slaves-engraving-1789.jpg", "w": 1 },
+            { "t": "A railroad line in the South", "i": "https://cdn.britannica.com/92/258092-050-5983EBB1/Photograph-of-First-Transcontinental-Railroad-circa-1869.jpg", "w": 0 },
+            { "t": "A law that ended slavery", "i": "https://cdn.britannica.com/84/142484-050-D891E091/Thirteenth-Amendment-to-the-Constitution-of-United.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which system used secret routes and safe houses to help enslaved people escape to freedom?",
+        "c": "Slavery",
+        "e": "The Underground Railroad was a secret network that helped many enslaved people escape, especially to free states and Canada.",
+        "o": [
+            { "t": "Underground Railroad", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/underground-railroad-gettyimages-645161544?_a=BAVAZGB00", "w": 1 },
+            { "t": "Transcontinental Railroad", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/transcontinental-railroad-gettyimages-559144231?_a=BAVAZGB00", "w": 0 },
+            { "t": "Erie Canal", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/erie-canal-gettyimages-515466852?_a=BAVAZGB00", "w": 0 },
+            { "t": "Homestead Act", "i": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/homestead-act-gettyimages-515213200?_a=BAVAZGB00", "w": 0 }
+        ]
+    },
+    {
+        "q": "Who is most famous for leading enslaved people to freedom through the Underground Railroad?",
+        "c": "Slavery",
+        "e": "Harriet Tubman escaped slavery and later helped many others reach freedom through the Underground Railroad.",
+        "o": [
+            { "t": "Harriet Tubman", "i": "https://upload.wikimedia.org/wikipedia/commons/6/61/Harriet_Tubman_%28circa_1885%29.jpg", "w": 1 },
+            { "t": "Susan B. Anthony", "i": "https://upload.wikimedia.org/wikipedia/commons/2/28/SB_Anthony_from_RoRaWW.jpg", "w": 0 },
+            { "t": "Betsy Ross", "i": "https://upload.wikimedia.org/wikipedia/commons/1/10/Betsy_Ross_1893.png", "w": 0 },
+            { "t": "Dolley Madison", "i": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Dolley_Madison.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "What did the Fugitive Slave Act of 1850 require?",
+        "c": "Slavery",
+        "e": "The law required escaped enslaved people to be returned to their enslavers and punished people who helped them.",
+        "o": [
+            { "t": "It required escaped enslaved people to be returned to enslavers", "i": "https://upload.wikimedia.org/wikipedia/commons/4/47/Runaway_slave.jpg", "w": 1 },
+            { "t": "It gave voting rights", "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/15th_Amendment_Pg1of1_AC.jpg/960px-15th_Amendment_Pg1of1_AC.jpg", "w": 0 },
+            { "t": "It ended slavery in territories", "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/13th_Amendment_Pg1of1_AC.jpg/960px-13th_Amendment_Pg1of1_AC.jpg", "w": 0 },
+            { "t": "It ended the slave trade", "i": "https://upload.wikimedia.org/wikipedia/commons/8/82/Slaveshipposter.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which Supreme Court case ruled in 1857 that Black people could not be U.S. citizens?",
+        "c": "Slavery",
+        "e": "In Dred Scott v. Sandford, the Supreme Court ruled that Black people, whether enslaved or free, could not be citizens of the United States.",
+        "o": [
+            { "t": "Marbury v. Madison", "i": "https://upload.wikimedia.org/wikipedia/commons/f/fe/John_Marshall_by_Henry_Inman%2C_1832.jpg", "w": 0 },
+            { "t": "McCulloch v. Maryland", "i": "https://upload.wikimedia.org/wikipedia/commons/f/fe/John_Marshall_by_Henry_Inman%2C_1832.jpg", "w": 0 },
+            { "t": "Dred Scott v. Sandford", "i": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dred_Scott_photograph_%28circa_1857%29.jpg", "w": 1 },
+            { "t": "Brown v. Board of Education", "i": "https://cdn.britannica.com/25/91825-050-6828171F/George-EC-Hayes-Thurgood-Marshall-court-James-May-17-1954.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which book by Harriet Beecher Stowe helped turn many Northerners against slavery?",
+        "c": "Slavery",
+        "e": "Uncle Tom's Cabin became widely known for showing the cruelty of slavery and increasing anti-slavery feeling in the North.",
+        "o": [
+            { "t": "Common Sense", "i": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Commonsense.jpg", "w": 0 },
+            { "t": "The Federalist Papers", "i": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Federalist_%281st_ed%2C_1788%2C_vol_I%2C_title_page%29.jpg", "w": 0 },
+            { "t": "Uncle Tom's Cabin", "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Uncle_toms_cabin_first_edition.jpg/250px-Uncle_toms_cabin_first_edition.jpg", "w": 1 },
+            { "t": "The Jungle", "i": "https://upload.wikimedia.org/wikipedia/commons/4/4a/The_Jungle_%281906%29_cover.jpg", "w": 0 }
+        ]
+    },
+    {
+        "q": "Which amendment to the U.S. Constitution abolished slavery?",
+        "c": "Slavery",
+        "e": "The 13th Amendment abolished slavery in the United States after it was ratified in 1865.",
+        "o": [
+            { "t": "10th Amendment", "i": "https://commons.wikimedia.org/wiki/Special:FilePath/Constitution%20of%20the%20United%20States%2C%20page%201.jpg", "w": 0 },
+            { "t": "12th Amendment", "i": "https://commons.wikimedia.org/wiki/Special:FilePath/12th%20Amendment%20Pg1of1%20AC.jpg", "w": 0 },
+            { "t": "13th Amendment", "i": "https://commons.wikimedia.org/wiki/Special:FilePath/13th%20Amendment%20Pg1of1%20AC.jpg", "w": 1 },
+            { "t": "15th Amendment", "i": "https://commons.wikimedia.org/wiki/Special:FilePath/15th%20Amendment%20Pg1of1%20AC.jpg", "w": 0 }
+        ]
+    },
+    {
         "q": "Which event marked the beginning of the Civil War?",
         "c": "Civil War",
         "e": "The Civil War began when Confederate forces fired on Fort Sumter in South Carolina on April 12, 1861.",
